@@ -1,0 +1,53 @@
+
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #FFFFF0;
+}
+
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+nav
+{
+box-shadow: 20px 0px 20px ;
+margin-top:10px;
+}
+.container-fluid{
+
+    padding:10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    flex: 1;
+
+}
+
+.nav-link:hover {
+    color: red !important; /* Dark green on hover */
+    transition: 0.3s;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+footer
+{
+   
+    font-family: 'Times New Roman', Times, serif;
+    
+  bottom: 0;
+  left: 0;
+  width: 100%;
+ margin-top: auto;
+
+}
+
+
+.agrilogo img
+{
+
+    border-radius:50%;
+}

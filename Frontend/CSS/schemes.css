@@ -1,0 +1,62 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #FFFFF0;
+}
+nav
+{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+margin-top:10px;
+}
+.container-fluid{
+
+    padding:10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    flex: 1;
+
+}
+
+.nav-link:hover {
+    color: blue !important; /* Dark green on hover */
+    transition: 0.3s;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+footer
+{
+   
+    font-family: 'Times New Roman', Times, serif;
+    
+  bottom: 0;
+  left: 0;
+  width: 100%;
+ margin-top: auto;
+
+}
+
+
+.agrilogo img
+{
+
+    border-radius:50%;
+}
+
+
+
+.table-container {
+    margin: 30px auto;
+    max-width: 90%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.table thead {
+    background-color: #198754;
+    color: white;
+}
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}

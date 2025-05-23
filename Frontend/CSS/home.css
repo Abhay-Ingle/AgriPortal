@@ -1,0 +1,122 @@
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #FFFFF0;
+}
+nav
+{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+margin-top:10px;
+
+}
+.container-fluid{
+
+    padding:10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    flex: 1;
+
+}
+
+.nav-link:hover {
+    color: blue !important; /* Dark green on hover */
+    transition: 0.3s;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+footer
+{
+   
+    font-family: 'Times New Roman', Times, serif;
+    
+  bottom: 0;
+  left: 0;
+  width: 100%;
+ margin-top: auto;
+
+}
+
+
+.agrilogo img
+{
+
+    border-radius:50%;
+}
+
+#btn1
+{
+    background-color:orange; /* Light gray background */
+    color: #343a40; /* Dark text */
+    border: 2px solid #343a40; /* Dark border */
+    transition: all 0.3s ease-in-out;
+}
+#btn1:hover
+{
+    background-color:darkorange; /* Dark background on hover */
+    color: #ffffff; /* White text */
+    border-color: #ffffff; /* White border */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+
+
+
+
+.container my-5 {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef); /* Light gradient effect */
+    border-radius: 10px; /* Soft rounded corners */
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.table {
+    background-color: #ffffff; /* White background for table */
+    border-radius: 5px;
+}
+
+.thead-dark {
+    background-color: #343a40 !important; /* Dark header */
+    color: white;
+}
+
+#stateSelect {
+    border: 2px solid #343a40; /* Dark border */
+    background-color: #ffffff;
+    color: #343a40;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+#stateSelect:hover {
+    background-color: #343a40;
+    color: white;
+}
+
+
+  .tech-card {
+    cursor:pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  .tech-card:hover {
+    transform: scale(1.05);
+  }
+  .btn-light {
+    background-color: orange !important;
+    color: #343a40 !important;
+    border: 2px solid #343a40 !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.btn-light:hover {
+    background-color: darkorange !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+    transform: scale(1.05) !important;
+}
+
+/* Dropdown menu styling */
+
+
+
